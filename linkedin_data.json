@@ -4,8 +4,8 @@
         "full_name": "Soumya Mittal",
         "first_name": "Soumya",
         "last_name": "Mittal",
-        "profile_pic_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/soumya-mittal/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20241212%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20241212T094018Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=c8c2ec1d23ef8ca77cdceb69c1c0bf9c5b17c021e9e83249a8d808f496e5edc9",
-        "background_cover_image_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/soumya-mittal/cover?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20241212%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20241212T094018Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=5a2883f5f1a3a862abdc3a8d064b3d6c7032641e5addd68f0f99a565dd82284b",
+        "profile_pic_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/soumya-mittal/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20241212%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20241212T110653Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=94a14ee50329efad92e973b4e345f107d9b2abb6dab6ac3c19d81593649b761c",
+        "background_cover_image_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/soumya-mittal/cover?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20241212%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20241212T110653Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=6e7ec01660e4cd0bf80af547ab63bd5873f5bdfc6d759069a7b7d0b6b25c1a5f",
         "headline": "Backend Developer || CSE Undergrad || Finalist SIH'23 & YIC 2.0",
         "summary": "A passionate final year Computer Science Engineering student with a strong focus on problem solving within Data Structure & Algorithms.\nI am continuously improving proficiency in both frontend & backend development, with a current focus on AI-ML.\nAnd now I am highly enthusiastic for all my future plans to execute them at right time.\nI am always seeking opportunities to learn and grow in professional space.",
         "location": {
@@ -25,7 +25,7 @@
             "ends_at": null,
             "description": null,
             "company_linkedin_url": "https://www.linkedin.com/company/corazor-technology-private-limited",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/corazor-technology-private-limited/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20241212%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20241212T094018Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=2bd603203145aaf52673213ca3ca25f4abf5f125bf2ce9d58f00c433d2991172"
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/corazor-technology-private-limited/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20241212%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20241212T110654Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=894208415f21a6fc70be05e1b6c9493813148d813797b6ca3d0b4d4094004c6b"
         },
         {
             "title": "Project Intern",
@@ -35,7 +35,7 @@
             "ends_at": "2023-09-30",
             "description": "It was an AICTE Internship brought by Edunet Foundation thorugh IBM SkillsBuild",
             "company_linkedin_url": "https://www.linkedin.com/company/edunetfoundation",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/edunetfoundation/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20241212%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20241212T094018Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=801cf5574e727e7cb46089830c16635cc74199f9888aae1d6d58296030da9235"
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/edunetfoundation/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20241212%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20241212T110654Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=c58b5d6be7ba1f5e4a96f324ae91a387f5537255ecd97a214259b09ed0ace803"
         }
     ],
     "education": [
@@ -46,7 +46,7 @@
             "starts_at": "2021-07-01",
             "ends_at": "2025-06-30",
             "school_linkedin_url": "https://www.linkedin.com/company/27087609/",
-            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/o.p.-jindal-university/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20241212%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20241212T094018Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=158dc956e220b90494dfbb9f16ba8290cffb321dda437dd44b000a3ab66f791f"
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/o.p.-jindal-university/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20241212%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20241212T110654Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=059fb9ddf200c98138789ee4be428aa173ff44541cf3a13b244dcb86645728a6"
         },
         {
             "degree": "High School & Intermediate",

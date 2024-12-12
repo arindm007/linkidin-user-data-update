@@ -15,7 +15,7 @@ collection = db['users']  # Replace with your collection name
 
 # LinkedIn API Configuration
 api_endpoint = 'https://nubela.co/proxycurl/api/v2/linkedin'
-api_key = 'Nb8npZqjwe0wX-FnJ1PQ3g'  # Replace with your actual API key
+api_key = '0cZRLLBM_tum5f_xRaUXPA'  # Replace with your actual API key
 headers = {'Authorization': 'Bearer ' + api_key}
 
 # Function to fetch user details from LinkedIn
