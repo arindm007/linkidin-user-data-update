@@ -1,0 +1,138 @@
+{
+    "personal_info": {
+        "public_identifier": "aadarshsoni",
+        "full_name": "Aadarsh Soni",
+        "first_name": "Aadarsh",
+        "last_name": "Soni",
+        "profile_pic_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/aadarshsoni/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20241212%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20241212T070048Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=5224e35d5ea5819a38c9576e1d4cfe062296c1218f120a09493e681e205514aa",
+        "background_cover_image_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/aadarshsoni/cover?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20241212%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20241212T070048Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=83d0b454ba3634cb9a3338deaca4bf8a5f6fce8f915a338f6aba08c0925fc368",
+        "headline": "@UI/UX Developer Roadlyne | Frontend Developer | Finalist SIH'23,SIH'24 & YIC 2.0",
+        "summary": "\ud83d\udc68\u200d\ud83c\udf93 I am a dedicated and forward-thinking B.Tech student pursuing a degree in Computer Science. My journey in the world of technology has been a thrilling exploration of the endless possibilities that computer science offers.\n\n\ud83d\ude80 My Interests:\nMy enthusiasm extends to various areas within computer science, including:\n\nSoftware Development: Crafting clean and efficient code that brings ideas to life.\nData Science: Exploring the power of data to derive valuable insights and predictions.\nArtificial Intelligence: Fascinated by the potential of AI to transform industries.\nCybersecurity: Committed to safeguarding digital assets and user privacy.\n\n\ud83d\udee0\ufe0f Skills:\n\nProgramming Languages: [C / C++,Java,Python,HTML/CSS/Javascript]\nTools and Technologies: [Figma,Flutter,App Development,Raspberry Pi ]\nProblem-Solving | Teamwork | Continuous Learning",
+        "location": {
+            "city": "Bhilai",
+            "state": "Chhattisgarh",
+            "country": "India"
+        },
+        "follower_count": 1042,
+        "connections": 1028
+    },
+    "work_experience": [
+        {
+            "title": "UI Developer",
+            "company": "Binimise Labs",
+            "location": "Bengaluru, Karnataka, India",
+            "starts_at": "2024-11-01",
+            "ends_at": null,
+            "description": null,
+            "company_linkedin_url": "https://www.linkedin.com/company/binimise",
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/binimise/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20241212%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20241212T070049Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=f8e946ee9a909ef40cc2c877c53e6528e7647d581f676cfbd89be713e2210e01"
+        },
+        {
+            "title": "Frontend UI Developer",
+            "company": "Ainrion",
+            "location": "Delhi, India",
+            "starts_at": "2024-10-01",
+            "ends_at": "2024-12-31",
+            "description": null,
+            "company_linkedin_url": "https://www.linkedin.com/company/104942538/",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQFCTwcD2yQMfg/company-logo_400_400/company-logo_400_400/0/1725523455670?e=1741824000&v=beta&t=hCKa7C0jt754LxTmGwicE0F8P3u336gCIAqpBtbUAFI"
+        },
+        {
+            "title": "Ui/UX Developer",
+            "company": "Roadlyne",
+            "location": "India",
+            "starts_at": "2024-08-01",
+            "ends_at": "2024-12-31",
+            "description": null,
+            "company_linkedin_url": "https://www.linkedin.com/company/101391461/",
+            "logo_url": "https://media.licdn.com/dms/image/v2/D4E0BAQGfzIgp96oghQ/company-logo_400_400/company-logo_400_400/0/1727513242058/roadlyne_logo?e=1741824000&v=beta&t=rXobMag_ddg92JmypFKJLmENHLie-_BBLxUU88Z9GcQ"
+        },
+        {
+            "title": "Frontend Web Developer",
+            "company": "Bridge Healthcare ",
+            "location": "India",
+            "starts_at": "2024-05-01",
+            "ends_at": "2024-07-31",
+            "description": "I'm excited to embark on this journey of growth and discovery, honing my design skills, and gaining hands-on experience in the ever-evolving field of UI/UX. With a passion for creativity and a dedication to user-centric design, I'm eager to make meaningful contributions to the team and create impactful user experiences.",
+            "company_linkedin_url": "https://www.linkedin.com/company/bridge-healthcare-pvt-ltd",
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/bridge-healthcare-pvt-ltd/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20241212%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20241212T070049Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=ea82a60051c5391299925015b93ed9e2b01960706d29a0e30525e15b72020bb5"
+        },
+        {
+            "title": "Web Developer",
+            "company": "Bharat Intern",
+            "location": "India",
+            "starts_at": "2023-09-01",
+            "ends_at": "2023-10-31",
+            "description": null,
+            "company_linkedin_url": "https://www.linkedin.com/company/bharat-intern",
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/bharat-intern/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20241212%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20241212T070049Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=d6ab88f7d21a30bf67a58a6aed9d24ce071265bd5e21becc7803d8c7243fac4b"
+        }
+    ],
+    "education": [
+        {
+            "degree": "Btech",
+            "field_of_study": "Computer Engineering",
+            "school": "OP Jindal University",
+            "starts_at": "2022-06-01",
+            "ends_at": "2026-12-31",
+            "school_linkedin_url": "https://www.linkedin.com/company/13589458/",
+            "logo_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/company/op-jindal-university/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20241212%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20241212T070049Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=e4f38706f0df0c3be85d78047bd83b31063552bc5bb0bbcbd27d6dc21374054d"
+        },
+        {
+            "degree": "Schooling",
+            "field_of_study": null,
+            "school": "op jindal School",
+            "starts_at": "2008-01-01",
+            "ends_at": "2022-02-28",
+            "school_linkedin_url": null,
+            "logo_url": null
+        }
+    ],
+    "certifications": [
+        {
+            "name": "Genric online training in cyber security ",
+            "authority": "Ministry of Electronics and Information Technology",
+            "url": "https://infosecawareness.in/certificate/wchp_00027127_Aadarshsoni.pdf"
+        },
+        {
+            "name": "Bharat intern Web development intern Certificate ",
+            "authority": "Bharat Intern",
+            "url": "https://drive.google.com/file/d/11jsgJIn4UM4TtUdNiZqo3DGhw-YLHFTn/view?usp=sharing"
+        },
+        {
+            "name": "Completion certificate ",
+            "authority": "Bridge Healthcare ",
+            "url": "https://drive.google.com/file/d/1JfFfT_cC44G3_4FGAS5RQA6UyXOC2Fsg/view?usp=drivesdk"
+        }
+    ],
+    "skills": [
+        "Back-End Web Development",
+        "HTML",
+        "Cascading Style Sheets (CSS)",
+        "JavaScript",
+        "C (Programming Language)",
+        "Web Development",
+        "Web Design",
+        "Problem Solving",
+        "Data Structures",
+        "Videography",
+        "Video Editing",
+        "java Basic",
+        "Python (Programming Language)",
+        "C (Programming Language) Basic",
+        "Graphic Design",
+        "Adobe Photoshop Editor",
+        "Photography",
+        "Communication"
+    ],
+    "groups": [
+        {
+            "name": "IIT Kharagpur",
+            "url": "https://www.linkedin.com/groups/2803"
+        },
+        {
+            "name": "Internship Group ",
+            "url": "https://www.linkedin.com/groups/6510263"
+        }
+    ]
+}
