@@ -4,6 +4,7 @@ import requests
 from bson.objectid import ObjectId
 import json
 import os
+import urllib.parse
 
 app = Flask(__name__)
 
@@ -14,7 +15,7 @@ collection = db['users']  # Replace with your collection name
 
 # LinkedIn API Configuration
 api_endpoint = 'https://nubela.co/proxycurl/api/v2/linkedin'
-api_key = '_1j568pt0HsKUu5jDAXTBA'  # Replace with your actual API key
+api_key = 'Nb8npZqjwe0wX-FnJ1PQ3g'  # Replace with your actual API key
 headers = {'Authorization': 'Bearer ' + api_key}
 
 # Function to fetch user details from LinkedIn
@@ -23,9 +24,24 @@ def fetch_linkedin_details(social_link):
     if not social_link:
         return None
 
+    # # Clean the URL: remove any leading/trailing spaces
+    # social_link = social_link.strip()
+
+    # # Only clean if the string contains 'linkedin :' (case insensitive check)
+    # if 'linkedin :' in social_link.lower():
+    #     social_link = social_link.split('linkedin :')[1].strip()  # Clean unwanted prefix
+
+    # # Ensure the URL is properly encoded
+    # social_link = social_link['linkedIN']
+    str = social_link
+    start = str.find("https")
+    url = str[start:]
+  
+    
+
     try:
         response = requests.get(api_endpoint,
-                                params={'url': social_link, 'skills': 'include'},
+                                params={'url': url, 'skills': 'include'},
                                 headers=headers)
         response.raise_for_status()
         return response.json()
@@ -106,19 +122,53 @@ def fetch_details():
         return jsonify({"error": "Invalid ObjectId"}), 400
 
     # Query MongoDB for the user
-    user = collection.find_one({"_id": object_id}, {"_id": 1, "social_link": 1})
+    user = collection.find_one({"_id": object_id}, {"_id": 1, "socialMediaLinks": 1})
     if not user:
         return jsonify({"error": "User not found"}), 404
 
-    # Fetch LinkedIn profile details
-    social_link = user.get('social_link')
-    profile_data = fetch_linkedin_details(social_link)
+    # Extract LinkedIn URL(s) from the socialMediaLinks list
+    social_media_links = user.get('socialMediaLinks', [])
+    linkedin_urls = []
+
+    for link in social_media_links:
+        # Check if link is a dictionary or a string
+        if isinstance(link, str) and 'linkedin' in link:
+            linkedin_urls.append(link)
+        elif isinstance(link, dict) and 'linkedin' in link:
+            linkedin_urls.append(link['linkedin'])
+
+    if not linkedin_urls:
+        return jsonify({"error": "LinkedIn URL not found"}), 404
+
+    # Now you have a list of LinkedIn URLs
+    print("LinkedIn URLs found:", linkedin_urls[0])
+
+    # Fetch LinkedIn profile details for the first LinkedIn URL found
+    profile_data = fetch_linkedin_details(linkedin_urls[0])
 
     if not profile_data:
         return jsonify({"error": "Failed to fetch LinkedIn details"}), 500
 
     # Transform the profile data
     structured_data = transform_profile_data(profile_data)
+
+    # Prepare the data to be updated in MongoDB
+    update_data = {
+        "experience": structured_data.get("work_experience", []),
+        "education": structured_data.get("education", []),
+        "skills": structured_data.get("skills", []),
+        "certificationsAndLicenses": structured_data.get("certifications", [])
+    }
+
+    # Update MongoDB document with the new fields
+    result = collection.update_one(
+        {"_id": object_id}, 
+        {"$set": update_data}
+    )
+
+    if result.matched_count == 0:
+        return jsonify({"error": "User not found for update"}), 404
+
 
     # Save to JSON file
     with open('linkedin_data.json', 'w') as json_file:
